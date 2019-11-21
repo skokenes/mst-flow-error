@@ -9,12 +9,12 @@ The **test** app tries to import the model from **a** and extend it with a new a
 The flow triggers the following error when the action is called:
 `[mobx-state-tree] a mst flow must always have a parent context`
 
-To see this in action:
+To see this in action, run the following from the repo root:
 ```
-cd packages/test
+npm i
 npm run start
 ```
 
-And check the browser console for the error.
+And check the browser console for the launched sample react app to see the error.
 
 The store is set up and the flow is called in `packages/test/src/App.tsx`
