@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "23.3.2",
+    "@types/node": "12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "16.0.8",
+    "@types/react-router-dom": "^5.1.0",
+    "a": "file:../a",
+    "mobx": "^5.14.0",
+    "mobx-react-lite": "^1.4.1",
+    "mobx-state-tree": "^3.14.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "2.1.8",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo 'no test' && exit 0",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
